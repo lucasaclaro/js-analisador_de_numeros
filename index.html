@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de números</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <header>
+        <h1>Analisador de números</h1>
+   </header>
+   <section class="conteudo">
+       <div class="conteudo-principal">
+           <p>Digite um número entre 1 e 100: 
+               <input id="numero" type="number">
+           </p>
+           <p>
+            <input onclick="inserirNumero()" type="button" value="Inserir" id="botao">
+           </p>
+ 
+           <select name="flista" id="flista" size="6"></select>
+       </div>
+        <input onclick="analisar()" type="button" value="Analisar" id="botao-analisar" >
+       <div id="resultado">
+
+       </div>
+   </section>
+   <footer class="rodape">
+       <p>Desenvolvido por Lucas Claro como exercício do Curso em Vídeo</p>
+       <a href="https://www.linkedin.com/in/lucas-alexandre-claro-703a68243/"><img class="rodape-imagem" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt=""></a>
+       <a href="https://github.com/lucasaclaro"><img class="rodape-imagem" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt=""></a>
+       <a href="https://www.instagram.com/lucas.a.claro/"><img class="rodape-imagem" src="https://imagensemoldes.com.br/wp-content/uploads/2020/04/%C3%8Dcone-Instagram-PNG-1024x1024.png" alt=""></a>
+       <a href="https://www.facebook.com/lucas.claro.7/"><img class="rodape-imagem" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/800px-Facebook_logo_%28square%29.png" alt=""></a>
+   </footer>
+   <script src="script.js"></script>
+</body>
+</html>
